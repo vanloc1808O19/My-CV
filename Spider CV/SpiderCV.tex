@@ -1,0 +1,173 @@
+\documentclass[11pt]{spidercv}
+\usepackage[utf8]{vietnam}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+
+
+
+\begin{document}
+
+    %----------------------------------------------------------------------------------------
+    %	TOP BAR
+    %----------------------------------------------------------------------------------------
+    \begin{TopBar}{\ColorTextSide}
+        \Name{\ColorHighlight}{Nguyen Van Loc}{Student}{20 years old}
+
+        %%% Contact
+        \TextSeparator{\ColorHighlight}{Contact}
+        \begin{DoubleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faAt] \href{mailto:vanloc1808@gmail.com}{vanloc1808@gmail.com}
+                \item [\Large\faMobile] +84 905 481 342
+                \item [\Large\faMapMarker] University of Science, VNUHCM
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [\Large\faGithub] \href{https://github.com/vanloc1808}{vanloc1808}
+                \item [\Large\faLinkedinSquare] \href{https://www.linkedin.com/in/vanloc1808/}{vanloc1808}
+            \end{ItemList}
+        \end{DoubleColumns}
+
+        %%% Interests
+        \TextSeparator{\ColorHighlight}{Interests}
+        \begin{TripleColumns}
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Coding
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Reading
+            \end{ItemList}
+            \nextcolumn
+            \begin{ItemList}{\ColorHighlight}
+                \item [] Listening to music
+            \end{ItemList}
+        \end{TripleColumns}
+    \end{TopBar}
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	SIDE BAR
+    %----------------------------------------------------------------------------------------
+    \begin{SideBar}{\ColorBackground}{\ColorTextSide}
+        
+        %%% Soft skills
+        \TextSeparatorBis{\ColorHighlight}{\faUser}{Soft skills}
+        
+        \Label{\ColorHighlight}{Communication}
+        \Label{\ColorHighlight}{Time Management}
+        \Label{\ColorHighlight}{Teamwork}
+        \Label{\ColorHighlight}{Networking}
+        
+        \vspace*{1cm}
+
+        %%% Hard skills
+        \TextSeparatorBis{\ColorHighlight}{\faGears}{Hard skills}
+        \begin{ItemList}{\ColorHighlight}
+            \item [\faCode] C++ Programming
+            \item [\faCode]  Object-Oriented Programming
+            \item [\faCode] \LaTeX
+            \item [\faPencilSquareO]  Data Structures and Algorithms
+            \item [\faPencilSquareO]  Combinatorial Mathematics
+            \item [\faPencilSquareO]  Probability and Statistics
+            \item [\faPencilSquareO]  Linear Algebra
+        \end{ItemList}
+
+        \vspace*{1cm}
+
+        %%% Languages
+        \TextSeparatorBis{\ColorHighlight}{\faLanguage}{Languages}
+
+        \begin{SkillGauges}{\ColorHighlight}
+            \addGauge{Vietnamese}{5}
+            \addGauge{English}{4}
+            IELTS 7.0 (2019)
+        \end{SkillGauges}
+    \end{SideBar}
+
+    
+
+    %----------------------------------------------------------------------------------------
+    %	Picture
+    %----------------------------------------------------------------------------------------
+    \DefineProfile{\ColorOther}{\ColorTextSide}{img/avatar.jpg}
+
+
+
+
+    %----------------------------------------------------------------------------------------
+    %	Main
+    %----------------------------------------------------------------------------------------
+    \begin{MainPart}
+
+    %%% Experiences 
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Projects}{\faSuitcase}
+    \Experience
+        {\ColorHighlight}
+		{Simple Chess Game}
+		{University of Science, VNUHCM}
+        {2021}
+        {   
+            A simple chess game.\\
+            Language: C++.\\
+            Project for Object-Oriented Programming.\\
+            GitHub link: \url{https://github.com/vanloc1808/HCMUS-OOP-Project-ChessGame}
+        }
+    \Experience
+        {\ColorHighlight}
+		{Search Engine}
+		{University of Science, VNUHCM}
+        {2021}
+        {   
+            A search engine for finding files containg the required words.\\
+            Language: C++
+            Project for Arts of Programming.\\
+            GitHub link:
+            \url{https://github.com/vanloc1808/HCMUS-AP-Project-SearchEngine}
+        }
+    \Experience
+        {\ColorHighlight}
+		{Big Integer}
+		{University of Science, VNUHCM}
+        {2021}
+        {   
+            A program for calculations on big integers.\\
+            Language: C++
+            Project for Arts of Programming.\\
+            GitHub link: 
+            \url{https://github.com/mekanican/BigInteger}
+        }
+
+
+    
+    %%% Education
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Education}{\faGraduationCap}
+    \Experience
+        {\ColorHighlight}
+		{Student}
+		{University of Science, VNUHCM}
+        {2020 - \faUndo}
+        {   
+            Class of 2020.\\
+            Sophomore of Honor Program (Talent Program) (school year 2021 - 2022).\\
+            Current GPA: 8.89
+            }
+
+    %%% Activities
+    \MainTitleBis{\ColorHighlight}{\ColorTextMain}{Activities}{\faUsers}
+    \vspace*{0.5cm}
+        \begin{ItemList}{\ColorHighlight}
+            \item [] Participating in the 2021 ICPC Vietnam Southern Provincial.
+            \item [] Consolation Prize, The "Youth with Marxism - Leninism Sciences and Ho Chi Minh's Ideology" Competition of University of Science, VNUHCM, 2021.
+            \item [] Second Prize, Ba Ria - Vung Tau Provincial Mathematical Olympiad, 2019.
+        \end{ItemList}
+        
+
+    \end{MainPart}
+
+    
+
+\end{document}
+
+
